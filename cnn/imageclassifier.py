@@ -61,5 +61,5 @@ for i in os.listdir("unknown_dir"):
     if classes[0]>0.5:
         print(str(j)+" : Ocean "+i)
     else:
-        print(str(j)+" : Dessert"+i)
+        print(str(j)+" : Desert"+i)
     j+=1
